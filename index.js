@@ -93,7 +93,7 @@ async function main() {
   // Then repeat every 60 minutes (60 * 60 * 1000 = 3,000,000 ms)
   setInterval(async () => {
     await sendTransactionWithInterval();
-  }, 60 * 60 * 1000); // 60 minutes
+  }, 37 * 60 * 1000); // 60 minutes
 }
 
 // Fire it up
